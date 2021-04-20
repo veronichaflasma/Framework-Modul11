@@ -1,0 +1,28 @@
+[debug] [2021-04-16T17:27:52.133Z] ----------------------------------------------------------------------
+[debug] [2021-04-16T17:27:52.134Z] Command:       D:\APPLICATION\NodeJs\node.exe C:\Users\agath\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2021-04-16T17:27:52.135Z] CLI Version:   9.10.0
+[debug] [2021-04-16T17:27:52.135Z] Platform:      win32
+[debug] [2021-04-16T17:27:52.135Z] Node Version:  v12.16.2
+[debug] [2021-04-16T17:27:52.135Z] Time:          Sat Apr 17 2021 00:27:52 GMT+0700 (Indochina Time)
+[debug] [2021-04-16T17:27:52.136Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-04-16T17:27:52.142Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-04-16T17:27:52.142Z] > authorizing via signed-in user (veronichaflasma@gmail.com)
+[debug] [2021-04-16T17:27:52.142Z] [iam] checking project modul11-login for permissions ["firebase.projects.get"]
+[debug] [2021-04-16T17:27:52.143Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/modul11-login:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2021-04-16T17:27:53.465Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 16 Apr 2021 17:27:53 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=979","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-04-16T17:27:53.467Z] > refreshing access token with scopes: []
+[debug] [2021-04-16T17:27:53.468Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-04-16T17:27:53.714Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Fri, 16 Apr 2021 17:27:53 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-04-16T17:27:53.727Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/modul11-login [none]
+[debug] [2021-04-16T17:27:54.188Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/modul11-login 200
+[debug] [2021-04-16T17:27:54.188Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/modul11-login {"projectId":"modul11-login","projectNumber":"1048048232667","displayName":"Modul11-Login","name":"projects/modul11-login","resources":{"hostingSite":"modul11-login","storageBucket":"modul11-login.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[info] 
+[info] === Serving from 'D:\POLYTHECNIC\SEMESTER 6\Pemrograman Berbasis Framework\Modul11\modul11'...
+[info] 
+[debug] [2021-04-16T17:27:54.190Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/modul11-login/webApps/-/config [none]
+[debug] [2021-04-16T17:27:55.305Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/modul11-login/webApps/-/config 200
+[debug] [2021-04-16T17:27:55.306Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/modul11-login/webApps/-/config {"projectId":"modul11-login","storageBucket":"modul11-login.appspot.com","locationId":"us-central","apiKey":"AIzaSyD144StPjSbJdyoq_2m1yx0gag8zNoNodQ","authDomain":"modul11-login.firebaseapp.com","messagingSenderId":"1048048232667"}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
